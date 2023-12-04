@@ -1,4 +1,4 @@
-import { expect, test, it } from 'vitest';
+import { expect, test } from 'vitest';
 
 test('import', async () => {
   const code = '() => import(\'./asset.js\')';
